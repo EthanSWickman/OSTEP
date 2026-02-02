@@ -1,0 +1,39 @@
+1. 
+FIFO
+Response = ( 0 + 200 + 400 ) / 3 = 200
+Turnaround = ( 200 + 400 + 600 ) / 3 = 400
+
+SJF
+Response = ( 0 + 200 + 400 ) / 3 = 200
+Turnaround = ( 200 + 400 + 600 ) / 3 = 400
+
+
+2.
+FIFO
+Best case:
+    Response = ( 0 + 100 + 300 ) / 3 = 400 / 3
+    Turnaround = ( 100 + 300 + 600 ) / 3 = 1000 / 3
+Worst case
+    Response = ( 0 + 300 + 500 ) / 3 = 800 / 3
+    Turnaround = ( 300 + 500 + 600 ) / 3 = 1400 / 3
+
+SJF: 
+    Response = ( 0 + 100 + 300 ) / 3 = 400 / 3
+    Turnaround = ( 100 + 300 + 600 ) / 3 = 1000 / 3
+
+
+3. 
+Response = ( 0 + 1 + 2 ) / 3 = 1
+Turnaround = ( 298 + 499 + 600 ) / 3 = 1397 / 3
+
+4.
+Workloads in which the order of jobs queued is non-decreasing
+
+5. 
+Workloads in which each job's runtime is less than the quantum length
+
+6. 
+As job lengths increase, the response time will also increase, as it takes longer to start working on the next job. If you for example double the job time, you also double the response time in SJF. 
+
+7.
+As quantum length increases, response time will also increase. Response time = ( N * quantum length ) / 2
